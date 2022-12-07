@@ -8,3 +8,7 @@ class ChristmasCarol(unittest.TestCase):
     def test_single_ver_1(self):
         self.assertEqual(get_verse(0),
                          "On the first day of Christmas, my true love gave to me: a Partridge in a Pear Tree.")
+
+    def test_single_ver_2(self):
+        self.assertEqual(get_verse(1),
+                         "On the second day of Christmas, my true love gave to me: two Turtle Doves, and a Partridge in a Pear Tree.")
