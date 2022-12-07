@@ -72,3 +72,7 @@ class ChristmasCarol(unittest.TestCase):
     def test_ver_range_1_to_2(self):
         self.assertEqual(starts_ends(0, 1),
                          "On the first day of Christmas, my true love gave to me: a Partridge in a Pear Tree.On the second day of Christmas, my true love gave to me: two Turtle Doves, and a Partridge in a Pear Tree.")
+
+    def test_ver_range_1_to_3(self):
+        self.assertEqual(starts_ends(0, 2),
+                         "On the first day of Christmas, my true love gave to me: a Partridge in a Pear Tree.On the second day of Christmas, my true love gave to me: two Turtle Doves, and a Partridge in a Pear Tree.On the third day of Christmas, my true love gave to me: three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.")
