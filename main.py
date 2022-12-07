@@ -8,6 +8,7 @@ verses = [["first", "and a Partridge in a Pear Tree."],
           ["eighth", "eight Maids-a-Milking, "],
           ["ninth", "nine Ladies Dancing, "],
           ["tenth", "ten Lords-a-Leaping, "],
+          ["eleventh", "eleven Pipers Piping, "],
           ]
 
 
