@@ -37,3 +37,9 @@ class ChristmasCarol(unittest.TestCase):
                             "On the seventh day of Christmas, my true love gave to me: seven Swans-a-Swimming, "
                             "six Geese-a-Laying, five Gold Rings, four Calling Birds, three French Hens, two Turtle Doves, "
                             "and a Partridge in a Pear Tree.")
+
+    def test_single_ver_8(self):
+        self.assertEqual(get_verse(7),
+                         "On the eighth day of Christmas, my true love gave to me: eight Maids-a-Milking, "
+                         "seven Swans-a-Swimming, six Geese-a-Laying, five Gold Rings, four Calling Birds, "
+                         "three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.")
