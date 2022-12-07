@@ -35,7 +35,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for Tests.ChristmasCarol.test_ver_range_1_to_8">
+  <component name="RunManager" selected="Python tests.Python tests for Tests.ChristmasCarol.test_ver_range_1_to_9">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="TDD-4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,21 +56,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for Tests.ChristmasCarol.test_ver_range_1_to_4" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="TDD-4" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Tests.ChristmasCarol.test_ver_range_1_to_4&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for Tests.ChristmasCarol.test_ver_range_1_to_5" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -133,13 +118,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for Tests.ChristmasCarol.test_ver_range_1_to_9" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TDD-4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Tests.ChristmasCarol.test_ver_range_1_to_9&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for Tests.ChristmasCarol.test_ver_range_1_to_9" />
         <item itemvalue="Python tests.Python tests for Tests.ChristmasCarol.test_ver_range_1_to_8" />
         <item itemvalue="Python tests.Python tests for Tests.ChristmasCarol.test_ver_range_1_to_7" />
         <item itemvalue="Python tests.Python tests for Tests.ChristmasCarol.test_ver_range_1_to_6" />
         <item itemvalue="Python tests.Python tests for Tests.ChristmasCarol.test_ver_range_1_to_5" />
-        <item itemvalue="Python tests.Python tests for Tests.ChristmasCarol.test_ver_range_1_to_4" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670430727722</updated>
-      <workItem from="1670430731360" duration="2854000" />
+      <workItem from="1670430731360" duration="3561000" />
     </task>
     <servers />
   </component>
@@ -171,6 +171,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TDD_4$main.coverage" NAME="main Coverage Results" MODIFIED="1670433258464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TDD_4$.coverage" NAME=" Coverage Results" MODIFIED="1670433605659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TDD_4$.coverage" NAME=" Coverage Results" MODIFIED="1670434306054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
