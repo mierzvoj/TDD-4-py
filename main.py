@@ -6,6 +6,7 @@ verses = [["first", "and a Partridge in a Pear Tree."],
           ["sixth", "six Geese-a-Laying, "],
           ["seventh", "seven Swans-a-Swimming, "],
           ["eighth", "eight Maids-a-Milking, "],
+          ["ninth", "nine Ladies Dancing, "],
           ]
 
 
