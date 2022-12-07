@@ -2,6 +2,7 @@ verses = [["first", "and a Partridge in a Pear Tree."],
           ["second", "two Turtle Doves, "],
           ["third", "three French Hens, "],
           ["fourth", "four Calling Birds, "],
+          ["fifth", "five Gold Rings, "],
           ]
 
 
