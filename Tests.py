@@ -1,7 +1,7 @@
 import unittest
 
 from main import get_verse
-
+from main import starts_ends
 
 
 class ChristmasCarol(unittest.TestCase):
@@ -61,3 +61,14 @@ class ChristmasCarol(unittest.TestCase):
                          "On the eleventh day of Christmas, my true love gave to me: eleven Pipers Piping, ten Lords-a-Leaping, "
                          "nine Ladies Dancing, eight Maids-a-Milking, seven Swans-a-Swimming, six Geese-a-Laying, five Gold Rings, "
                          "four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.")
+
+    def test_single_ver_12(self):
+        self.assertEqual(get_verse(11),
+                         "On the twelfth day of Christmas, my true love gave to me: twelve Drummers Drumming, "
+                         "eleven Pipers Piping, ten Lords-a-Leaping, nine Ladies Dancing, eight Maids-a-Milking, "
+                         "seven Swans-a-Swimming, six Geese-a-Laying, five Gold Rings, four Calling Birds, three French Hens, "
+                         "two Turtle Doves, and a Partridge in a Pear Tree.")
+
+    def test_ver_range_1_to_2(self):
+        self.assertEqual(starts_ends(0, 1),
+                         "On the first day of Christmas, my true love gave to me: a Partridge in a Pear Tree.On the second day of Christmas, my true love gave to me: two Turtle Doves, and a Partridge in a Pear Tree.")

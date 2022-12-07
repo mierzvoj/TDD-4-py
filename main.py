@@ -9,6 +9,7 @@ verses = [["first", "and a Partridge in a Pear Tree."],
           ["ninth", "nine Ladies Dancing, "],
           ["tenth", "ten Lords-a-Leaping, "],
           ["eleventh", "eleven Pipers Piping, "],
+          ["twelfth", "twelve Drummers Drumming, "]
           ]
 
 
@@ -18,5 +19,10 @@ def get_verse(line):
     return opener + (verse.replace("and ", "") if line == 0 else verse)
 
 
+def starts_ends(start_verse, end_verse):
+    return "".join(get_verse(line_n)
+                   for line_n in range(start_verse, end_verse + 1))
+
+
 if __name__ == "__main__":
-    print(get_verse(0))
+    print(starts_ends(0, 1))
