@@ -4,6 +4,7 @@ verses = [["first", "and a Partridge in a Pear Tree."],
           ["fourth", "four Calling Birds, "],
           ["fifth", "five Gold Rings, "],
           ["sixth", "six Geese-a-Laying, "],
+          ["seventh", "seven Swans-a-Swimming, "],
           ]
 
 
