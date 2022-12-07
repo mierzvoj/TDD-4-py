@@ -20,9 +20,13 @@ def get_verse(line):
 
 
 def starts_ends(start_verse, end_verse):
-    return "".join(get_verse(line_n)
+    if isinstance(start_verse, int) or isinstance(end_verse, int):
+
+        return "".join(get_verse(line_n)
                    for line_n in range(start_verse, end_verse + 1))
+    else:
+        raise ValueError("input integer")
 
 
 if __name__ == "__main__":
-    print(starts_ends(0, 1))
+    print(starts_ends("a", "b"))

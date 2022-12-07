@@ -192,6 +192,7 @@ class ChristmasCarol(unittest.TestCase):
                          "three French Hens, two Turtle Doves, and a Partridge in a Pear Tree."
 
                          )
+
     def test_ver_range_1_to_11(self):
         self.assertEqual(starts_ends(0, 10),
                          "On the first day of Christmas, my true love gave to me: a Partridge in a Pear Tree."
@@ -251,3 +252,15 @@ class ChristmasCarol(unittest.TestCase):
                          "two Turtle Doves, and a Partridge in a Pear Tree."
                          )
 
+    def test_disallow_string_as_input(self):
+        with self.assertRaisesWithMessage(ValueError):
+            starts_ends("a", "b")
+
+    def setUp(self):
+        try:
+            self.assertRaisesRegex
+        except AttributeError:
+            self.assertRaisesRegex = self.assertRaisesRegexp
+
+    def assertRaisesWithMessage(self, exception):
+        return self.assertRaisesRegex(exception, r".+")
