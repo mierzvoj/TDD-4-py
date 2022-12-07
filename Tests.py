@@ -34,9 +34,9 @@ class ChristmasCarol(unittest.TestCase):
 
     def test_single_ver_7(self):
         self.assertEqual(get_verse(6),
-                            "On the seventh day of Christmas, my true love gave to me: seven Swans-a-Swimming, "
-                            "six Geese-a-Laying, five Gold Rings, four Calling Birds, three French Hens, two Turtle Doves, "
-                            "and a Partridge in a Pear Tree.")
+                         "On the seventh day of Christmas, my true love gave to me: seven Swans-a-Swimming, "
+                         "six Geese-a-Laying, five Gold Rings, four Calling Birds, three French Hens, two Turtle Doves, "
+                         "and a Partridge in a Pear Tree.")
 
     def test_single_ver_8(self):
         self.assertEqual(get_verse(7),
@@ -78,7 +78,6 @@ class ChristmasCarol(unittest.TestCase):
                          "On the first day of Christmas, my true love gave to me: a Partridge in a Pear Tree."
                          "On the second day of Christmas, my true love gave to me: two Turtle Doves, and a Partridge in a Pear Tree.On the third day of Christmas, my true love gave to me: three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.")
 
-
     def test_ver_range_1_to_4(self):
         self.assertEqual(starts_ends(0, 3),
                          "On the first day of Christmas, my true love gave to me: a Partridge in a Pear Tree."
@@ -87,5 +86,13 @@ class ChristmasCarol(unittest.TestCase):
                          "On the fourth day of Christmas, my true love gave to me: "
                          "four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.")
 
-
-
+    def test_ver_range_1_to_5(self):
+        self.assertEqual(starts_ends(0, 4),
+                         "On the first day of Christmas, my true love gave to me: a Partridge in a Pear Tree."
+                         "On the second day of Christmas, my true love gave to me: two Turtle Doves, and a Partridge in a Pear Tree."
+                         "On the third day of Christmas, my true love gave to me: three French Hens, two Turtle Doves, and a Partridge in a Pear Tree."
+                         "On the fourth day of Christmas, my true love gave to me: "
+                         "four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree."
+                         "On the fifth day of Christmas, my true love gave to me: five Gold Rings, four Calling Birds, "
+                         "three French Hens, two Turtle Doves, and a Partridge in a Pear Tree."
+                         )
